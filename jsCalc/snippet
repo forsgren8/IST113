@@ -1,0 +1,32 @@
+function addNumber(frist, second) {
+    console.log("Adding numbers: " + (frist + second));
+}
+
+function subtractNumber(frist, second) {
+    console.log("Subtracting numbers: " + (frist - second));
+}
+
+function multipyNumber(x, y) {
+    console.log("Multipying numbers: " + (x * y));
+}
+
+function divideNumber(a, b) {
+    console.log("dividing numbers: " + (a / b));
+}
+
+function driver() {
+console.log("We want to add: " + 1 + "," + 2);
+console.log(addNumber(1,2));
+
+console.log("We want to subtract: " + 5 + "," + 3);
+console.log(subtractNumber(5,3));
+
+console.log("We want to mutiply: " + 5 + "," + 6);
+console.log(multipyNumber(5,6));
+
+console.log("We want to divide: " + 6 + "," + 2);
+console.log(divideNumber(6,2));
+
+}
+
+driver();
